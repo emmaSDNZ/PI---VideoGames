@@ -1,0 +1,134 @@
+header{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    z-index: 1;
+}
+
+.container_menu{
+    max-width: auto;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+.container_menu_item input{   
+    background-color: transparent;
+    width: 300px;
+    height: auto;
+    padding: 2px 25px;
+    border: 1px solid  #fff;
+    text-decoration: none;
+    border-radius: 3px;   
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.container_menu_item button{
+    background: none;
+    padding: 5px;
+    border: none;
+    text-decoration: none;
+    border-radius: 2px;   
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 10px 3px 50px -1px rgb(3, 255, 234) ;
+    *text-shadow:0px 0px  3px rgb(216, 0, 220);
+    letter-spacing: 5px;
+    font-size: 13px;
+}
+.container_menu_item  button:hover{
+    background: rgb(4, 241, 222);
+    color: black;
+    transition: background 0.5s ease-in-out;
+    outline: 0;
+}
+
+.container_menu_button > button{
+    background: none;
+    padding: 5px;
+    border: none;
+    text-decoration: none;
+    border-radius: 1px;   
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 5px;
+    font-size: 12px;
+}
+.container_menu_button button:hover{
+    background: rgb(4, 241, 222);
+    color: black;
+    transition: background 0.5s ease-in-out;
+    outline: 0;
+}
+
+.conteiner_2{
+ 
+    padding: 20px;
+}
+
+.conteiner_2_ad{
+    padding: 1px;
+    background: #222222;
+    border: 1px solid #222222;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+    
+.conteiner_2_ad p{
+    font-size: 12px;
+    line-height: 1.9;
+    letter-spacing: 3px
+    
+}
+.conteiner_2_ad select{
+    height: 23px;
+    margin-bottom: 20px;
+    background: #222222 ;
+    padding: 1px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    border-color:  rgb(4, 241, 222);
+    list-style: none;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+ .conteiner_2_ad button{
+    margin-top: 20px;
+   
+    padding: 2px 25px;
+    border: 1px solid  rgb(4, 241, 222);;
+    text-decoration: none;
+    border-radius: 2px;   
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.conteiner_2_ad button:hover{
+    background: rgb(4, 241, 222);
+    color: black;
+    transition: background 0.5s ease-in-out;
+    outline: 0;}
+
+.imagen{
+    display: flex;
+    background-color: rgb(18, 16, 16);
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid rgb(0, 44, 37);
+}
+
+
+.navlink{
+    text-decoration: none;
+    font-size: 10px;
+}
+

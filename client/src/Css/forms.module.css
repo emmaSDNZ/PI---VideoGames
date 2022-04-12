@@ -1,0 +1,113 @@
+
+.conteiner{
+    max-width:  1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5rem;
+}
+
+.title{
+    text-align: center;
+    font-size: 20px;
+}
+.conteiner__form{
+    box-shadow: 3px 3px 50px -10px rgb(4, 241, 222) ;
+}
+
+.conteiner__form > *{
+    padding: 1em;
+}
+
+.conteiner__form_items{
+    background: #222222;
+}
+
+.conteiner__form_items form{
+    margin:0;
+    padding: 16px;
+}
+
+
+.conteiner__form_items button,
+.conteiner__form_items input,
+.conteiner__form_items textarea{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid rgb(4, 241, 222);
+    outline: 0;
+    color: white
+}
+
+.conteiner__form_items button{
+    background: none;
+    padding: 8px ;
+    border: none;
+    font-size: 15px;
+    border-radius: 1px;
+    cursor: pointer;
+    box-shadow: 10px 3px 50px -1px rgb(4, 241, 222) ;
+    color: rgb(254, 254, 254);
+    letter-spacing: 4px;
+    font-size: 13px;
+    text-decoration: none;
+}
+.conteiner__form_items button:hover{
+       background: rgb(4, 241, 222);
+       color: black;
+       transition: background 0.5s ease-in-out;
+       outline: 0;
+}
+
+.conteiner__form_items select{
+    
+    flex:1;
+    background: #222222 ;
+    padding: 0, 5 rem;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+    border-color:  rgb(4, 241, 222);
+    list-style: none;
+    
+}
+.conteiner__form_items ul{
+    list-style: none;
+    
+}
+
+.checked{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: center;
+    font-size: 12px
+}
+
+.header{
+    height: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.header button{
+    background: none;
+    border: none;
+    padding: 8px ;
+    cursor: pointer;
+    color: rgb(254, 254, 254);
+    letter-spacing: 4px;
+    font-size: 10px;
+    text-decoration: none;
+}
+.header button:hover{
+    background: rgb(4, 241, 222);
+    color: black;
+    transition: background 0.5s ease-in-out;
+    outline: 0;
+} 
+
+.text_ERROR{
+    color: rgb(247, 1, 1);
+    font-size: 10px;
+}

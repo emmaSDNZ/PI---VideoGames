@@ -1,0 +1,33 @@
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imga{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+   
+    border-radius: 20px;
+    margin: auto;
+}
+
+.imga img{
+   width:700px;
+    height:350px
+}
+
+.imga h2,h3{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.imga h2{
+    font-size: 30px;
+}
+
+.imga h3{
+ font-size: 15px;
+}
